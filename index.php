@@ -86,7 +86,7 @@
     </template>-->
 
     <template id="template">
-    <div class="card">
+    <div class="card" id="">
         <div class="card-inner">
             <div class="card-front">
         <div class="header">

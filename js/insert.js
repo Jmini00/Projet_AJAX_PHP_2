@@ -1,7 +1,7 @@
 /**
- * Envoi des données au serveur PHP
+ * Insertion des données
  */
-const form = document.querySelector('form').addEventListener('submit', function(event) {
+/*const form = document.querySelector('form').addEventListener('submit', function(event) {
     // Empêche le formulaire de recharger la page
     event.preventDefault()
 
@@ -75,15 +75,14 @@ const form = document.querySelector('form').addEventListener('submit', function(
         })
         .catch(error => console.error(error))
         //alert('Impossible de soumettre le formulaire pour le moment.');
-})
-
+})*/
 
 
 
 /**
- * Insertion des données au serveur PHP
+ * Insertion des données
  */
-/*const form = document.querySelector('form');
+const form = document.querySelector('form');
 form.addEventListener('submit', async function (event) {
     // Empêche le formulaire de recharger la page
     event.preventDefault();
@@ -186,6 +185,6 @@ form.addEventListener('submit', async function (event) {
             showConfirmButton: true,
         });
     }
-});*/
+});
 
 
