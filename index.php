@@ -53,6 +53,9 @@
         <div id="logo">
             <img src="public/assets/manSepia.webp" alt="logo La Boite à Vinyles">
             <h1 class="lobster-two-regular-italic">La Boîte à Vinyles (liste)</h1>
+            <div>
+            <input type="search" id="search" placeholder="Rechercher...">
+        </div>
         </div>
     </header>
 
