@@ -3,7 +3,7 @@
 // Connexion à la BDD
 require_once 'connexion.php';
 
-$query = $db->query('SELECT * FROM vinyles ORDER BY id DESC');
+$query = $db->query('SELECT * FROM vinyles ORDER BY artiste ASC');
 $vinyles = $query->fetchAll();
 
 // Force l'entête du navigateur au format JSON

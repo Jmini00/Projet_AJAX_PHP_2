@@ -151,13 +151,26 @@
       }
   }
 
-  /*button {
+  #list {
+    display: none;
+  }
+
+  #list-btn {
     cursor: pointer;
+    color: var(--white);
+    background-color: var(--green);
+    padding: 6px 22px;
+    border-radius: 50px;
+    gap: 6px;
+
+    transition: 0.5s ease-in-out;
     &:hover {
-      background-color: #000000;
+      background-color: var(--green-dark);
       color: #FFFFFF;
+      transition: 0.5s ease-in-out;
+
     }
-  }*/
+  }
 
   strong {
     color: var(--links);

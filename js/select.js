@@ -154,6 +154,13 @@ document.querySelectorAll('#dark-mode li').forEach(item => {
     }
   }
 
+  $(function(){
+    $("#list-btn").click(function(){
+      $("#list").fadeToggle("slow");
+    });
+  });
+
+
 /**
  * Créer une carte pour un vinyle
  */
